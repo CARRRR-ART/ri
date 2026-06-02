@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="music.css">
+    <link rel="stylesheet" href="nav-link.css">
+    
+</head>
+<body>
+    <div class="music-control" id="musicControl" aria-label="Background music control">
+        <button type="button" class="music-button" id="musicToggle" aria-label="Play background music">▶</button>
+        <button type="button" class="music-button" id="muteToggle" aria-label="Mute background music">🔊</button>
+    </div>
+    <audio id="backgroundMusic" loop preload="metadata" aria-hidden="true"></audio>
+    <div class="cursor"></div>
+    <div class="container">
+        <h1>Happy Birthday RISHIKA💗</h1>
+        <div class="greeting"></div>
+        <button class="cta-button">Click for next Page 💕</button>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="music.js"></script>
+    <script src="nav-link.js"></script>
+</body>
+</html>

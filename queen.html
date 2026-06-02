@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 19 Queen 👑</title>
+    <link rel="stylesheet" href="music.css">
+    <link rel="stylesheet" href="queen.css">
+</head>
+<body>
+    <div class="music-control" id="musicControl" aria-label="Background music control">
+        <button type="button" class="music-button" id="musicToggle" aria-label="Play background music">▶</button>
+        <button type="button" class="music-button" id="muteToggle" aria-label="Mute background music">🔊</button>
+    </div>
+    <audio id="backgroundMusic" loop preload="metadata" aria-hidden="true"></audio>
+
+    <div class="queen-scene">
+        <div class="royal-glow"></div>
+        <div class="firework-layer" aria-hidden="true"></div>
+        <div class="sparkle-layer" aria-hidden="true"></div>
+        <div class="balloon-layer" aria-hidden="true"></div>
+        <div class="confetti-layer" aria-hidden="true"></div>
+
+        <main class="queen-main">
+            <div class="hero-copy">
+                <span class="hero-badge">👑 Happy 19 Queen</span>
+                <h1>
+                    Happy 19 <span class="golden-text">Queen</span>
+                    <span class="hero-crown">👑</span>
+                </h1>
+                <p>May your smile always shine brighter than the candles on this cake and may life bring you endless happiness, success, beautiful memories, and everything you deserve.</p>
+            </div>
+
+            <section class="cake-hub" aria-label="Birthday cake celebration">
+                <div class="cake-plate"></div>
+                <div class="cake">
+                    <div class="cake-layer layer-one"></div>
+                    <div class="cake-layer layer-two"></div>
+                    <div class="cake-layer layer-three"></div>
+                    <div class="cake-icing"></div>
+                    <div class="cake-top">
+                        <div class="cake-flower cake-flower-left"></div>
+                        <div class="cake-flower cake-flower-right"></div>
+                        <div class="cake-decoration"></div>
+                        <div class="candle-row"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="queen.js"></script>
+    <script src="music.js"></script>
+</body>
+</html>
